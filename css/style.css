@@ -1,0 +1,147 @@
+body{
+
+}
+
+/* Layout */
+.ba-container{
+	width: 100%;
+	height: 100%;
+}
+
+.ba-header{
+	 display: block;
+	 width: 100%;
+	 height: 750px;
+	 background: url(../img/background.jpg) no-repeat fixed;
+	 background-size: cover;
+
+	
+}
+
+.logo{
+	display: inline-block;
+	padding-left: 50px;
+	padding-top: 50px;
+
+}
+
+.navigation {
+	
+	
+list-style-type: none;
+text-align: right;
+margin-top: -20px;
+margin-right: 50px;
+}
+
+.navigation li{
+	font-family: "OpenSans", sans-serif;
+	font-size: 16px;
+	color: white;
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+li a{
+	text-decoration: none;
+	background-color: transparent;
+    border: 1px solid white;
+	width: 80px;
+    height: 30px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    font-family: 'OpenSans', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    outline: none;
+
+}
+.head{
+	padding-top: 200px;
+
+
+}
+h1{
+font-family: "Source Sans Pro", sans-serif;
+	font-size: 35px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 300;
+    letter-spacing: 7px;
+    text-align: center;
+}
+.text{
+font-family: "OpenSans", sans-serif;
+	font-size: 16px;
+	color: white;
+	font-weight: 400;
+	text-align: center;
+
+}
+
+.scrolldown {
+	border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+   
+}
+
+
+.down{
+text-decoration: none;
+background-color: #19bd9a;;
+border: 1px solid white;
+padding: 6px 12px;
+border-radius: 50%;
+ position: absolute;
+bottom: 15px;
+left: 50%;
+
+}
+
+h2{
+font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	color: #333b46;
+	text-transform: uppercase;
+	font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;	
+}
+
+.text2{
+font-family: "OpenSans", sans-serif;
+	font-size: 14px;
+	color: #81868e;
+	font-weight: 400;
+	text-align: center;	
+}
+
+.main1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.menu li{
+	font-family: "OpenSans", sans-serif;
+	font-size: 16px;
+	color: #464646;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	}
+
+.masonry-menu{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.masonry-container{
+
+}

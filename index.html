@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Start</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="img/favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+
+</head>
+<body>
+	<!-- BEGIN ba-container  -->
+	<div class="ba-container">
+	<header class="ba-header">
+	<span><img class="logo" src="img/logo.png"/></span>
+	<ul class="navigation">
+                <li><a href="#">Hello</a></li>
+                <li><a href="#2">Portfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+     </ul>
+    <div class="head">
+  <h1>We are code cafe</h1>
+  <p class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+  praesentium voluptatum</p>
+  </div>
+
+  <a class="down" href="#"><span class="scrolldown"></span></a>
+		</header>
+		<main>
+ <div class="main1">
+<h2 id="2">The Portfolio</h2>
+		<p class="text2">At vero eos et accusamus et iusto odio dignissimos ducimus qui<br>
+		blanditiis praesentium</p>
+</div>
+<div class="masonry-menu">
+<ul class="menu">
+<li>All Works</li>
+<li>Print</li>
+<li>Branding</li>
+<li>Web</li>
+<li>HTML</li>	
+</ul>
+</div>
+
+<div class="masonry-container">
+<div class="item"><img src="img/1_1.png"/></div>
+<div class="item"><img src="img/1_2.png"/></div>
+<div class="item"><img src="img/1_3.png"/></div>
+<div class="item"><img src="img/1_4.png"/></div>
+	
+</div>
+	
+</div>
+
+		</main>
+		<footer class="ba-footer">
+
+		</footer>
+	</div>
+	<!-- END ba-container -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.min.js"></script>
+
+
+	<script>
+$(".navigation").on("click","a", function (event) {
+                event.preventDefault();
+                var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 2000);
+            });
+
+
+
+		var $container = $('.masonry-container');
+		$container.imagesLoaded( function() {
+$container.masonry({
+  columnWidth: '.item',
+  itemSelector: '.item'
+});
+
+
+	</script>
+</body>
+</html>
