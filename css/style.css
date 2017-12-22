@@ -58,6 +58,10 @@ li a{
     outline: none;
 
 }
+
+a:hover {
+	text-decoration: none;
+}
 .head{
 	padding-top: 200px;
 
@@ -88,6 +92,7 @@ font-family: "OpenSans", sans-serif;
   padding: 4px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+
    
 }
 
@@ -101,7 +106,7 @@ border-radius: 50%;
  position: absolute;
 bottom: 15px;
 left: 50%;
-
+position: absolute;
 }
 
 h2{
@@ -141,7 +146,22 @@ font-family: "OpenSans", sans-serif;
 	justify-content: center;
 	
 }
-
 .masonry-container{
+	width: 80%;
+	height: 750px;
+	margin: 0 auto;
 
 }
+
+.item{
+margin-right: 10px;
+margin-bottom: 10px;
+height: 230px;
+width: calc(25% - 10px);
+}
+
+.item img{
+width: 100%;
+position: relative;
+}
+
